@@ -9,6 +9,7 @@ const Actioncard = () => {
   return (
     <View>
       <View>
+        <Text style={styles.headerfont}>Action Card</Text>
         <View style={styles.card}>
             <Text style={styles.title}>What's new in Javascript ES12 !</Text>
             <Image source={{uri:'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'}} style={styles.cardimage}/>
